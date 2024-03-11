@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="shortcut icon"type="image/x-icon"href="img/logo.png">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <title>Avengers Website</title>
+        <style>
+            *{
+                margin:0;
+                padding: 0;
+                box-sizing: border-box;
+            }
+            .row{
+                padding: 50px;
+            }
+            .main{
+                width: 100%;
+                background-image:linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%),url(img/pic.jpg);
+                background-position: center;
+                background-size: cover;
+                height: 109vh;
+            }
+            .navbar{
+                width:100px;
+                height:30px;
+                margin-top: 0;
+            }
+            .nav ul{
+                float:left;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin-left: 800px;
+                text-decoration: none;
+            }
+            .nav ul li{
+                padding-top: 0;
+                list-style: none;
+                margin-left: 62px;
+                margin-top: 0;
+                font-size: 18px;
+            }
+            .nav ul li a{
+                text-decoration: none;
+                color:red;
+                font-family: Arial, Helvetica, sans-serif;
+                font-weight: bold;
+                transition: 0.4s ease-in-out;
+            }
+            .nav ul li a:hover{
+                color:red;
+            }
+            .logo{
+                color:red;
+                font-size: 30px;
+                font-weight: bold;
+            }
+            .col1{
+                width: 15%;
+                margin-left: 5px;
+                padding: 10px 10px 20px 10px;
+                border: 2px solid red;
+                background-color: white;
+                box-shadow: 10px 10px 5px gray;
+                float:left;
+            }
+            .col1 span{
+                font-size: 25px;
+                font-weight: bold;
+            }
+            .col1 p{
+                font-size: 17px;
+                font-weight: bold;
+            }
+            .col2{
+                width: 15%;
+                height: 150%;
+                margin-left: 5px;
+                padding: 10px 10px 20px 20px;
+                border: 2px solid red;
+                background-color: white;
+                box-shadow: 10px 10px 5px gray;
+                float:left;
+            }
+            .col2 p{
+                -webkit-text-stroke: 1px black;
+                font-size: 17px;
+                font-weight: bold;
+            }
+            .col2 span{
+                font-size: 25px;
+                -webkit-text-stroke: 1px black;
+                font-color:white;
+                font-weight: bold;
+            }
+            .col1 .bttn1{
+                font-size:15px;
+                font-weight: bold;
+                background-image: linear-gradient(white,white);
+                color: black;
+                font-family: Arial, Helvetica, sans-serif;
+            }
+            .col2 .bttn1{
+                font-size:15px;
+                color:black;
+                background-image: linear-gradient(white,white);
+                font-weight: bold;
+                font-family: Arial, Helvetica, sans-serif;
+            }
+
+        </style>
+    </head>
+    <body>
+        <div class="main">
+            <div class="header">
+                <div class="l1">
+                    <h1 class="logo">Avengers Website</h1>
+                </div>
+
+                <div class="nav">
+                    <ul>
+                        <li><a href="home.html">Home</a></li>
+                        <li><a href="offers.html">Offers</a></li>
+                        <li><a href="#">Shops</a></li>
+                        <li><a href="signin.html">Sign In </a></li>
+                    </ul>
+            </div>
+            </div>
+            <div class="row">
+                <div class="col1">
+                    <img src="img/bracelet1.jpg"width="100%">
+                    <span>Bracelet</span>
+                    <p>$15.00</p>
+                    <br>
+                    <button class="bttn1">Add to cart <i class="fa fa-cart-plus"></i></button>
+                </div>
+
+                <div class="col1">
+                    <img src="img/airpods.jpg"width="100%">
+                    <span>Airpods Case</span>
+                    <p>$110.00</p>
+                    <br>
+                    <button class="bttn1">Add to cart <i class="fa fa-cart-plus"></i></button>
+                </div>
+
+                <div class="col1">
+                    <img src="img/headset.jpg"width="100%">
+                    <span>Headset</span>
+                    <p>$322.00</p>
+                    <br>
+                    <button class="bttn1">Add to cart <i class="fa fa-cart-plus"></i></button>
+                </div>
+
+                <div class="col1">
+                    <img src="img/mug.jpg"width="100%">
+                    <span>Mug</span>
+                    <p>$20.00</p>
+                    <br>
+                    <button class="bttn1">Add to cart <i class="fa fa-cart-plus"></i></button>
+                </div>
+
+                <div class="col1">
+                    <img src="img/cap.jpg"width="100%">
+                    <span>Cap</span>
+                    <p>$30.00</p>
+                    <br>
+                    <button class="bttn1">Add to cart <i class="fa fa-cart-plus"></i></button>
+                </div>
+
+                <div class="col1">
+                    <img src="img/jacket.jpg"width="100%">
+                    <span>Jacket</span>
+                    <p>$500.00</p>
+                    <br>
+                    <button class="bttn1">Add to cart <i class="fa fa-cart-plus"></i></button>
+                </div>
+
+                <div class="col1">
+                    <img src="img/case.jpg"width="100%">
+                    <span>Phone Case</span>
+                    <p>$100.00</p>
+                    <br>
+                    <button class="bttn1">Add to cart <i class="fa fa-cart-plus"></i></button>
+                </div>
+
+                <div class="col1">
+                    <img src="img/ring.jpg"width="100%">
+                    <span>Earrings</span>
+                    <p>$30.00</p>
+                    <br>
+                    <button class="bttn1">Add to cart <i class="fa fa-cart-plus"></i></button>
+                </div>
+
+                <div class="col1">
+                    <img src="img/mug.jpg"width="100%">
+                    <span>Mug</span>
+                    <p>$25.00</p>
+                    <br>
+                    <button class="bttn1">Add to cart <i class="fa fa-cart-plus"></i></button>
+                </div>
+
+                <div class="col2"  style="height:291px">
+                    <img src="img/shirt.jpg"width="100%">
+                    <span>T-shirt</span>
+                    <p>$250.00</p>
+                    <br>
+					<br>
+                    <button class="bttn1">Add to cart <i class="fa fa-cart-plus"></i></button>
+                </div>
+
+                <div class="col2" style="height:291px">
+                    <img src="img/earrings.jpg"width="100%">
+                    <span>Earrings</span>
+                    <p>$25.00</p>
+                    <br>
+					<br>
+                    <button class="bttn1">Add to cart <i class="fa fa-cart-plus"></i></button>
+                </div>
+
+                <div class="col2"  style="height:291px">
+                    <img src="img/necklace.jpg"width="100%">
+                    <span>Necklace</span>
+                    <p>$50.00</p>
+                    <br>
+					<br>
+                    <button class="bttn1">Add to cart <i class="fa fa-cart-plus"></i></button>
+                </div>
+            </div>
+            </div>
+
+    </body>
+    </html>
